@@ -27,7 +27,7 @@ function [DAS_result, PSF, hn, CSM] = DAS(N,z0,f,phi,rn,source,SNR)
 %
 
 % Number of microphones in array
-N_mic = size(rn,1);
+%N_mic = size(rn,1);
 
 % Parameters
 c = 343;         % Speed of sound
